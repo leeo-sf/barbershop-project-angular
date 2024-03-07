@@ -1,0 +1,37 @@
+.content-home {
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 5px;
+}
+
+.who-we-are {
+    position: relative;
+    margin: 0 auto;
+}
+
+.content-who-we-are {
+    position: absolute;
+    padding: 20px;
+    background-color: #dfdfdf;
+    max-width: 300px;
+    border: 3px double black;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+.body-who-we-are {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.title-who-we-are {
+    font-size: 25px;
+    font-family: fantasy;
+    border-bottom: 4px solid black;
+}
+
+.center-screen .img-who-we-are img {
+    margin-left: 350px;
+    width: 400px;
+}
