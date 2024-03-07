@@ -2,3 +2,9 @@
     padding: 0;
     margin: 0;
 }
+
+.content-page {
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 5px;
+}

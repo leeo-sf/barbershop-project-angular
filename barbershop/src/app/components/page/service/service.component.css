@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+}
+
+.card-img > img {
+    padding: 12px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.card-service {
+    margin: 26px;
+    display: inline-block;
+    padding: 10px;
+    max-width: 225px;
+    border: 2px solid #afafaf;
+    border-radius: 7px;
+}
+
+#card-service-name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-service-body {
+    text-align: center;
+    padding: 7px;
+    background: #e6e6e6;
+}
+
+.btn-scheduling {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    background: rgb(135, 135, 255);
+    padding: 5px;
+    border: 1px solid rgb(135, 135, 255);
+    border-radius: 3px;
+}
+.btn-scheduling:hover {
+    background: rgb(67, 67, 255);
+    border-radius: 7px;
+}
+
+.card-service-price {
+    display: inline-block;
+}
+.card-service-price p {
+    color: green;
+    font-weight: bold;
+}
+
+.btns-admin-control {
+    margin-top: 5px;
+    text-align: center;
+    padding: 7px;
+}
+
+.btn-edit {
+    text-decoration: none;
+    color: black;
+    background: rgb(255, 255, 128);
+    padding: 7px;
+    border: 2px solid rgb(255, 255, 128);
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.btn-delete {
+    background-color: rgb(255, 103, 103);
+    padding: 7px;
+    border: 2px solid rgb(255, 103, 103);
+    border-radius: 3px;
+}
