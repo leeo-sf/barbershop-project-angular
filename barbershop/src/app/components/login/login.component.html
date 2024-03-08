@@ -1,0 +1,21 @@
+<div class="content-page">
+    <form (ngSubmit)="login()" [formGroup]="loginForm" #formDir="ngForm">
+        <div class="form-group">
+            <label for="email">Email:</label> <br>
+            <input type="email" placeholder="Digite o seu email" formControlName="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="senha">Senha:</label> <br>
+            <input type="password" placeholder="Digite a senha" formControlName="senha" required>
+        </div>
+
+        <input class="btn-login" type="submit" value="Entrar">
+
+        <p class="forget-password">
+            Não tem conta ?
+            <a href="#">Criar conta</a>
+        </p>
+    </form>
+
+</div>
