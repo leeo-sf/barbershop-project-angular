@@ -1,8 +1,9 @@
 footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #dfdfdf;
     height: 50px;
 }

@@ -1,0 +1,76 @@
+form {
+    margin: 0 auto;
+    background: rgb(230, 230, 230);
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 10px rgb(230, 230, 230);
+}
+
+h2 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form-group label {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-group input {
+    width: 400px;
+    height: 30px;
+    border: 2px solid rgb(160, 160, 228);
+    border-radius: 5px;
+}
+
+.form-group .gender {
+    display: flex;
+}
+.gender select {
+    margin-left: 10px;
+    width: 180px;
+    font-size: 16px;
+}
+
+.telephone-birthdate {
+    display: flex;
+}
+.telephone-birthdate input {
+    width: 180px;
+}
+
+.search-zip-code {
+    display: flex;
+}
+.search-zip-code .form-group input {
+    width: 200px;
+}
+
+.btn-search-zipCode {
+    margin-top: 23px;
+    margin-left: -40px;
+}
+.btn-search-zipCode button {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(52, 52, 240);
+    color: white;
+    border: 3px solid rgb(160, 160, 228);
+    border-radius: 8px;
+}
+
+.image label, .image input {
+    display: inline;
+}
+.image input {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.btn-submit input {
+    background-color: rgb(52, 52, 240);
+    color: white;
+    border: 3px solid rgb(160, 160, 228);
+    border-radius: 8px;
+}

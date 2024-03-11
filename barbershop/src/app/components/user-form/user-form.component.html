@@ -1,0 +1,93 @@
+<div class="content-page">
+    <form (ngSubmit)="submit()" [formGroup]="form" #formDir="ngForm">
+        <h2>{{ titleForm }}</h2>
+
+        <div class="form-group">
+            <label for="name">Nome:</label> <br>
+            <input type="text" placeholder="Digite o seu nome" formControlName="name" required>
+        </div>
+
+        <div class="form-group image">
+            <label for="imagem">Foto</label>
+            <input type="image">
+        </div>
+
+        <div class="form-group">
+            <label for="cpf">CPF:</label> <br>
+            <input type="text" placeholder="Digite o seu CPF" formControlName="cpf" required>
+        </div>
+        
+        <div class="form-group">
+            <div class="gender">
+                <label for="gender">Gênero</label> <br>
+                <!--FAZER REQUISIÇÃO PARA PREENCHER OS DADOS COM O BANCO-->
+                <select name="gender" formControlName="gender">
+                    <option disabled selected>Selecione um genêro</option>
+                    <option value="0">Masculino</option>
+                    <option value="1">Feminino</option>
+                    <option value="2">Outros</option>
+                </select>
+            </div>
+        </div>
+
+        <div formGroupName="address">
+            <div class="search-zip-code">
+                <div class="form-group">
+                    <label for="zipCode">CEP:</label> <br>
+                    <input type="text" placeholder="Digite o seu CEP" formControlName="zipCode" required>
+                </div>
+    
+                <div class="form-group">
+                    <div class="btn-search-zipCode">
+                        <button type="button" (click)="searchZipCode()">Search</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="publicPlace">Logradouro</label> <br>
+                <input type="text" placeholder="Digite o seu logradouro" formControlName="publicPlace" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="neighborhood">Bairro</label> <br>
+                <input type="text" placeholder="Digite o seu bairro" formControlName="neighborhood" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="locality">Localidade</label> <br>
+                <input type="text" placeholder="Digite sua localidade" formControlName="locality" required>
+            </div>
+        </div>
+
+        <div class="telephone-birthdate">
+            <div class="form-group">
+                <label for="telephone">Telefone:</label> <br>
+                <input type="tel" placeholder="Digite o seu telefone" formControlName="telephone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="birthDate">Data de Nascimento:</label> <br>
+                <input type="date" placeholder="Digite a sua data de nascimento" formControlName="birthDate" required>
+            </div>
+        </div>
+
+        <div formGroupName="profile">
+            <div class="form-group">
+                <label for="email">Email:</label> <br>
+                <input type="email" placeholder="Digite o seu email" formControlName="email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="password">Senha:</label> <br>
+                <input type="password" placeholder="Digite a sua senha" formControlName="password" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="btn-submit">
+                <input type="submit" value="{{ btnTitle }}">
+            </div>
+        </div>
+    </form>
+</div>

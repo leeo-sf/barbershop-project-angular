@@ -8,10 +8,6 @@ form {
     text-align: center;
 }
 
-.form-group {
-    padding: 30px;
-}
-
 .form-group input {
     width: 20em;
     height: 2em;

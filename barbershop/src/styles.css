@@ -8,3 +8,7 @@
     max-width: 900px;
     margin-top: 5px;
 }
+
+.form-group {
+    padding: 30px;
+}

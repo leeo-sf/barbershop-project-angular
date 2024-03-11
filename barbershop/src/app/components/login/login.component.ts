@@ -1,6 +1,7 @@
 import { NgIf } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -8,7 +9,8 @@ import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angul
   imports: [
     FormsModule,
     ReactiveFormsModule,
-    NgIf
+    NgIf,
+    RouterLink
   ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
